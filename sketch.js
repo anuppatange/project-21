@@ -34,7 +34,7 @@ if(hasCollided(bullet,wall)){
 }
 function hasCollided(lbullet,lwall){
 bulletRightEdge=lbullet.x + lbullet.width;
-wall.LeftEdge= lwall.x;
+wallLeftEdge= lwall.x;
 if(bulletRightEdge>=wallLeftEdge){
   return true
 }
